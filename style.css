@@ -1,0 +1,40 @@
+* {
+  border: 2px solid red;
+}
+
+body{
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header{
+  display: flex;
+
+}
+
+.body-1 {
+  display: flex;
+  flex: 1;
+}
+
+.body-2 {
+  display: flex;
+  flex: 1;
+}
+
+.body-3 {
+  display: flex;
+  flex: 1;
+}
+
+.body-4 {
+  display: flex;
+  flex: 1;
+}
+
+.fooder {
+  display: flex;
+}
