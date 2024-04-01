@@ -1,5 +1,5 @@
 * {
-  border: 2px solid red;
+  border: 1px solid red;
 }
 
 body{
@@ -10,31 +10,124 @@ body{
   justify-content: space-evenly;
 }
 
+.body-1,
+.body-2,
+.body-3,
+.body-4 {
+  padding: 100px 200px;
+  justify-content: center;
+}
+
+/* class */
+
+/* header */
 .header{
   display: flex;
-
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  padding: 0 200px;
 }
+
+.header-left{
+  padding: 8px 0px;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 16px;
+}
+
+/* 1st flex  */
 
 .body-1 {
   display: flex;
   flex: 1;
+  background-color: #1f2937;
+  color: white;
+  gap: 200px;
 }
+
+.content-1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.content-1a {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+button{
+  border: 0;
+  border-radius: .25em;
+  padding: 5px 20px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+/* 2nd flex */
 
 .body-2 {
   display: flex;
   flex: 1;
+  flex-direction: column;
 }
+
+.content-2a {
+
+}
+
+.box {
+  height: 125px;
+  width: 125px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+/* 3rd flex */
 
 .body-3 {
   display: flex;
   flex: 1;
 }
 
+ /* 4nd flex  */
+
 .body-4 {
   display: flex;
   flex: 1;
 }
 
+/* fooder */
+
 .fooder {
   display: flex;
+  background-color: #1f2937;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* id property */
+a {
+  color: white;
+  text-decoration: none;
 }
